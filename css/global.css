@@ -118,7 +118,7 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 0.75em;
+    font-size: 1em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -159,7 +159,7 @@ input.submit {
     cursor: pointer;
     padding: 0.4375em 0.625em 0.4375em 1.875em;
     box-shadow: 0.0625em 0.0625em #d5d5d5;
-    background: url("../img/icon/station.png") no-repeat 8px;
+    background: url("../img/icon/station.png") no-repeat 0.5em;
     transition: all 0.4s;
 }
 
@@ -226,7 +226,7 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 }
 
 @media screen and (max-width: 570px) {
-    .share{
+    .profile{
       display: none;
     }
 }
